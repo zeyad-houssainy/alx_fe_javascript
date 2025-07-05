@@ -1,0 +1,22 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgb(46, 194, 46);
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(102, 190, 102);
+}
