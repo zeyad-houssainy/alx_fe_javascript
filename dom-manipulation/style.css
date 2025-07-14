@@ -20,3 +20,28 @@ button {
 button:hover {
     background-color: rgb(102, 190, 102);
 }
+
+#quoteDisplay {
+    border: 1px solid black;
+
+}
+
+select {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+#newQuoteText {
+    width: 50%;
+}

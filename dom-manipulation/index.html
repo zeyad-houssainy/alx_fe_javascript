@@ -8,8 +8,37 @@
   </head>
   <body>
     <h1>Dynamic Quote Generator</h1>
-    <div id="quoteDisplay"></div>
-    <button id="newQuote">Show New Quote</button>
+    <!-- field where qoutes are displayed -->
+    <div id="quoteDisplay">Delete this line. quotes will be shown here</div>
+    
+    <!-- Select and show quote -->
+    <section>
+      <h2>Show a Qoute:</h2>
+      <select name="category" id="categorySelect" title="Select quote category">
+        <option value="all">all category</option>
+        <option value="art">Art</option>
+        <option value="history">History</option>
+        <option value="life">Life</option>
+        <option value="work">Work</option>
+        <option value="inspiration">Inspiration</option>
+      </select>
+      <button id="Button-newQuote">Show New Quote</button>
+    </section>
+
+    <!-- Add New Quoute -->
+    <div>
+      <input id="newQuoteText" type="text" placeholder="Enter a new quote" />
+      <select name="category" id="addCategorySelect" title="Select category for new quote">
+          <option value="all">Select Category</option>
+          <option value="art">Art</option>
+          <option value="history">History</option>
+          <option value="life">Life</option>
+          <option value="work">Work</option>
+          <option value="inspiration">Inspiration</option>
+      </select>
+      <button onclick="addQuote()">Add Quote</button>
+    </div>
+
     <script src="script.js"></script>
   </body>
   </html>
